@@ -122,6 +122,7 @@ $(document).ready(function(){
           </li>
           <li><a class="parent"><?php echo $text_users; ?></a>
             <ul>
+              <li><a href="<?php echo $change_password; ?>"><?php echo $text_user_change_password; ?></a></li>
               <li><a href="<?php echo $user; ?>"><?php echo $text_user; ?></a></li>
               <li><a href="<?php echo $user_group; ?>"><?php echo $text_user_group; ?></a></li>
             </ul>
