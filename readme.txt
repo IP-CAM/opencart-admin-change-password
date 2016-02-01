@@ -3,7 +3,7 @@ upload all to root dir of opencart
 |
 | -> If you have the Opencart 1.5.4.1 custom header, you skip overwriting the file and manually edited as follows:
 
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 *In the file admin\controller\common\header.php
 
 Locate the following line:
@@ -23,7 +23,7 @@ Insert that line:
 
 $this->data['change_password'] = $this->url->link('user/change_password', 'token=' . $this->session->data['token'], 'SSL');
 
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 In the file admin\language\english\common\header.php
 
 Locate the following line:
@@ -34,7 +34,7 @@ Insert that line:
 
 $_['text_user_change_password']        = 'User change password';
 
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 In the file admin\view\template\common\header.php
 
 Locate the following line:
